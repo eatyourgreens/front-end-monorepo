@@ -2,6 +2,8 @@ name: deploy storybooks
 
 on:
   push:
+    branches:
+      - publish-storybook
     tags:
       - production-release
   workflow_dispatch:
